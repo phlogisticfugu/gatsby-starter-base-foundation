@@ -1,6 +1,6 @@
 import React from 'react';
 
-import 'styles/site_base.css';
+import 'styles/site_base.scss';
 
 module.exports = React.createClass({
   propTypes () {
