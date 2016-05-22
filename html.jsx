@@ -24,7 +24,7 @@ module.exports = React.createClass({
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5.0" />
           <title>{title}</title>
-          <script dangerouslySetInnerHTML={{ __html: require('!raw!foundation-sites/dist/foundation.min.css')}} />
+          <style dangerouslySetInnerHTML={{ __html: require('!raw!foundation-sites/dist/foundation.min.css')}} />
           {prod_css}
         </head>
         <body>
