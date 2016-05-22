@@ -33,7 +33,8 @@
     "jquery": "^2.2.4",
     "react": "^15.1.0",
     "react-document-title": "^2.0.1",
-    "react-dom": "^15.1.0"
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1"
   },
   "devDependencies": {
     "npm-shrinkwrap": "^200.5.1"
