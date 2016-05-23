@@ -11,7 +11,7 @@ module.exports = React.createClass({
     };
   },
   render () {
-    const title = this.props.title || config.siteTitle;
+    const title = config.siteTitle;
     
     return (
       <DocumentTitle title={title}>
