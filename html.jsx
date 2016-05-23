@@ -11,7 +11,7 @@ module.exports = React.createClass({
   },
   render () {
     const lang = this.props.lang || 'en-us';
-    const title = this.props.title || DocumentTitle.rewind();
+    const title = DocumentTitle.rewind();
     let prod_css;
     if (process.env.NODE_ENV === 'production') {
       prod_css = <style dangerouslySetInnerHTML={{ __html: require('!raw!sass!./styles/site_base.scss') }} />

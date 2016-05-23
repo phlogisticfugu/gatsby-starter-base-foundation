@@ -1,4 +1,6 @@
 import React from 'react';
+import DocumentTitle from 'react-document-title';
+import { config } from 'config';
 
 import 'styles/site_base.scss';
 
@@ -9,10 +11,12 @@ module.exports = React.createClass({
     };
   },
   render () {
+    const title = this.props.title || config.siteTitle;
+    
     return (
-      <div>
+      <DocumentTitle title={title}>
       {this.props.children}
-      </div>
+      </DocumentTitle>
     );
   }
 });
